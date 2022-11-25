@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Iphone</title>
+  <link rel="shortcut icon" href="img/icon.ico">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"
+  rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+  <link rel="stylesheet" href="/css/main.min.css">
+</head>
+<body>
+  <header>
+    <div class="container">
+      <div class="header-top">
+        <div class="logo" id="logo">It Proger</div>
+        <div class="menu"><i class="fa-solid fa-bars"></i></div>
+        <ul>
+          <li><a href="#" onclick="return slowScroll('.header-main')">Інтро</a></li>
+          <li><a href="#" onclick="return slowScroll('.features')">Можливості</a></li>
+          <li><a href="#" onclick="return slowScroll('.presentation')">Допомога</a></li>
+          <li><a href="#" onclick="return slowScroll('.subscribe')">Блог</a></li>
+        </ul>
+      </div>
+
+      <div class="mobile-menu">
+        <ul>
+          <li><a href="#" onclick="return slowScroll('.header-main')">Інтро</a></li>
+          <li><a href="#" onclick="return slowScroll('.features')">Можливості</a></li>
+          <li><a href="#" onclick="return slowScroll('.presentation')">Допомога</a></li>
+          <li><a href="#" onclick="return slowScroll('.subscribe')">Блог</a></li>
+        </ul>
+      </div>
+
+      <div class="header-main">
+        <div class="info">
+          <h1>Простий, зручний <br>
+          & компактний</h1>
+          <p>Простий додаток HeyU для переписки <br> на всі можливі теми</p>
+          <button type="button" class="download">Скачати зараз</button>
+        </div>
+        <div class="image">
+          <img src="img/iphone-main-image.png" alt="iphone">
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <section class="features">
+    <div class="container">
+      <div class="block">
+        <div>
+          <img src="img/iphone2.png" alt="iphone" class="img-first">
+        </div>
+        <div class="info">
+          <h2>Прoсто переписка <span class="dot">.</span></h2>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+            Totam vel, consequatur blanditiis sunt natus, dolores quo.
+            Tenetur dolores deleniti voluptas amet accusantium ea quaerat ab ut,
+            alias laboriosam eveniet expedita omnis corporis repellat, neque sequi voluptates.</p>
+        </div>
+      </div>
+      <div class="block">
+        <div class="info">
+          <h2>Будь в курсі всього <span class="dot">.</span></h2>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+            Totam vel, consequatur blanditiis sunt natus, dolores quo.
+            Tenetur dolores deleniti voluptas amet accusantium ea quaerat ab ut,
+            alias laboriosam eveniet expedita omnis corporis repellat, neque sequi voluptates.</p>
+        </div>
+        <div>
+          <img src="img/iphone3.png" alt="iphone" class="img-secondary" >
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="reviews container">
+    <h2>Що говорять люди <span class="dot">.</span></h2>
+    <div class="flex">
+      <div>
+        <div class="review">
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+            Tempore aut saepe quos placeat itaque blanditiis! Rerum totam a maiores!</p>
+          <span class="website">Booking.com</span>
+        </div>
+        <div class="avtor">
+          <img src="img/avtor-1.png" alt="avtor review">
+          <span class="name">
+            Джордж Френклин <br>
+            <span class="position">Голова компанії</span>
+          </span>
+        </div>
+      </div>
+      <div>
+        <div class="review main">
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+            Tempore aut saepe quos placeat itaque blanditiis! Rerum totam a maiores!</p>
+          <span class="website">Airbug.com</span>
+        </div>
+        <div class="avtor">
+          <img src="img/avtor-2.png" alt="avtor review">
+          <span class="name">
+            Джордж Френклин <br>
+            <span class="position">Голова компанії</span>
+          </span>
+        </div>
+      </div>
+      <div>
+        <div class="review">
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+            Tempore aut saepe quos placeat itaque blanditiis! Rerum totam a maiores!</p>
+          <span class="website">Sumy.co</span>
+        </div>
+        <div class="avtor">
+          <img src="img/avtor-1.png" alt="avtor review">
+          <span class="name">
+            Джордж Френклин <br>
+            <span class="position">Голова компанії</span>
+          </span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="presentation">
+    <div class="container">
+      <div class="presentation-left">
+        <div class="presentation-card">
+          <div class="presentation-text">
+            <h3>Почни спілкуватись</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error quod voluptatem, animi harum.</p>
+          </div>
+          <div>
+            <img src="img/icon-mess.png" alt="mess">
+          </div>
+        </div>
+        <div class="presentation-card">
+          <div class="presentation-text">
+            <h3>Здійсни дзвінок</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error quod voluptatem, animi harum.</p>
+          </div>
+          <div>
+            <img src="img/icon-phone.png" alt="phone">
+          </div>
+        </div>
+      </div>
+
+      <div class="main-img">
+        <img src="img/iphone-presentation.png" alt="iphone-presentation">
+        <div class="video-play">
+          <img src="img/play-circle.png" alt="play">
+        </div>
+      </div>
+
+      <div class="presentation-right">
+        <div class="presentation-card">
+          <div>
+            <img src="img/icon-photo.png" alt="photo">
+          </div>
+          <div class="presentation-text">
+            <h3>Зроби фото</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error quod voluptatem, animi harum.</p>
+          </div>
+        </div>
+        <div class="presentation-card">
+          <div>
+            <img src="img/icon-video.png" alt="video">
+          </div>
+          <div class="presentation-text">
+            <h3>Вишли відео</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error quod voluptatem, animi harum.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="subscribe container">
+    <h4>Підпишись на наші обновлення<span class="dot">.</span></h4>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+       Reprehenderit officia repellat, rem deleniti nulla dignissimos?</p>
+    <form id="sub-form">
+      <input type="email" id="email" placeholder="Ваш email адрес">
+      <button type="button" id="subscribe">Підписатись</button>
+      <label for="email"></label>
+    </form>
+  </section>
+
+  <section class="bottom">
+    <div class="container">
+      <div class="bottom-img">H</div>
+      <h5>Скачайте додаток <span class="dot">.</span></h5>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente eaque voluptatibus totam autem magnam.</p>
+      <a href=""><img src="img/appstore.png"  alt="appstore"></a>
+    </div>
+  </section>
+
+  <footer class="container">
+    <ul>
+      <li><a href="#" onclick="return slowScroll('.header-main')">Інтро</a></li>
+      <li><a href="#" onclick="return slowScroll('.features')">Можливості</a></li>
+      <li><a href="#" onclick="return slowScroll('.presentation')">Допомога</a></li>
+      <li><a href="#" onclick="return slowScroll('.subscribe')">Блог</a></li>
+      <li><a href="#" onclick="return slowScroll('.subscribe')">Скачати</a></li>
+    </ul>
+  </footer>
+
+  <div id="modal-video">
+    <div class="button-close"><i class="fa-solid fa-xmark"></i></div>
+    <div class="modal-video">
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/msv1W4ZqH5A" title="YouTube video player"
+      frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+      allowfullscreen></iframe>
+    </div>
+  </div>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+<script src="https://kit.fontawesome.com/30474e3abc.js" crossorigin="anonymous"></script>
+<script src="js/script-min.js"></script>
+</body>
+</html>
